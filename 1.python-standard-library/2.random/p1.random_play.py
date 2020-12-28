@@ -1,4 +1,4 @@
-# Python code to demonstrate the Application of 
+# Python z_rough_code to demonstrate the Application of
 # randrange()
 
 import random

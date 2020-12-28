@@ -2,4 +2,4 @@
 Notes on Python
 
 #### Notes
-1. [python built-in's](/python-standard-library/1.built.in.md)
+1. [python built-in's](/1.python-standard-library/1.buitlns/1.built.in.md)
