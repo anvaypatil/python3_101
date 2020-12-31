@@ -17,8 +17,3 @@
 - Compact approximators
 - Parallel Partitioned Bloom Filters
 - Stable Bloom filters
-- Scalable Bloom filters
-- Spatial Bloom filters
-- Layered Bloom filters
-- Attenuated Bloom filters
-- Chemical structure searching
