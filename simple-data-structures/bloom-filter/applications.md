@@ -11,6 +11,12 @@
 - Spell-checker by using bloom filter to track the dictionary words.
 - Want to know how Medium used bloom filter to decide if a user already read post? Read this mind-blowing, freaking awesome article about it.
 
+- prevent your users from accessing malicious sites.
+- Instead of making a query to an SQL database to check if a user with a certain email exists, you could first use a bloom filter for an inexpensive lookup check. If the email doesn’t exist, great! If it does exist, you might have to make an extra query to the database. You can do the same to search for if a ‘Username is already taken’.
+- IP address of the visitors to your website to check if a user to your website is a ‘returning user’ or a ‘new user’. Some false positive value for ‘returning user’ won’t hurt you, right?
+- Spell-checker by using bloom filter to track the dictionary words.
+- Want to know how Medium used bloom filter to decide if a user already read post? Read this mind-blowing, freaking awesome article about it.
+
 ### Extensions and applications
 - Cache filtering
 - Avoiding false positives in a finite universe
